@@ -1,6 +1,6 @@
 # projects-portfolio
 
-**This repository provides an overview of some of my IT projects, home lab setup, tools I've worked with, and technical hobbies.
+This repository provides an overview of some of my IT projects, home lab setup, tools I've worked with, and technical hobbies.
 
 ---
 
