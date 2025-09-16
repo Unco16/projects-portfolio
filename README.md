@@ -15,7 +15,7 @@ The following tools are part of my professional experience but are not listed on
 
 ---
 
-## 🏠 Home Lab & IT Projects
+## 🏠 Home Lab & Network / Infrastructure Projects
 
 I maintain a home server running **Proxmox** to explore virtualization, networking, and security concepts.
 
@@ -25,16 +25,16 @@ I maintain a home server running **Proxmox** to explore virtualization, networki
 - **Home Assistant VM** –  
   - Smart home automation (lights, alarms, Sonos, TVs)
   - LED matrix displays for time/date, events, stock prices, notifications
-  - Centralized sensors (temperature, humidity)
+  - Centralized sensors (temperature/humidity, light sensor, motion sensor)
   - MQTT broker (Mosquitto)
   - ZigBee gateway integration
 - **Wazuh VM** – Monitoring and security event management  
-- **Jellyfin Server** – Media streaming  
 - **Ubuntu VM** – NFS server  
 - **Linux Test VMs** – Ubuntu, Debian for experimentation
+- **Jellyfin Server** – Media streaming  
 
 ### pfSense Configuration Highlights
-- Multiple interfaces (WAN, LAN) with **segmented VLANs**:
+- Multiple physical interfaces (1 WAN, 2 LAN), with segmented VLANs:
   - Main VLAN for trusted devices
   - IoT VLAN, VoIP VLAN, IP Camera VLAN, Guest VLAN  
 - **Traffic Monitoring:** ntopng integration  
